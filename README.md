@@ -1,5 +1,6 @@
 ## A simple button component library
 ### Author: Thong Nguyen
+### [STORYBOOK DEMO](https://tyler-component-style-guide.netlify.app)
 ### [DEMO](https://theme-and-hook.now.sh/)
 ---
 ## 🚀 Quick start
