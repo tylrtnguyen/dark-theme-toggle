@@ -3,8 +3,8 @@ import React from 'react'
 import { func, string } from 'prop-types';
 import styled from 'styled-components';
 // Import a couple of SVG files we'll use in the design: https://www.flaticon.com
-import { ReactComponent as MoonIcon } from '../icons/moon.svg';
-import { ReactComponent as SunIcon } from '../icons/sun.svg';
+import { ReactComponent as MoonIcon } from '../assets/icons/moon.svg';
+import { ReactComponent as SunIcon } from '../assets/icons/sun.svg';
 
 const ToggleContainer = styled.button`
   background: ${({ theme }) => theme.gradient};

@@ -12,66 +12,66 @@ const BUTTON_MODIFIERS = {
         font-size: ${typeScale.h5};
         padding: 12px 24px;
     `,
-    warning: ({ props }) => `
+    warning: ({ theme }) => `
     background: none;
-    color: ${props.status.warningColor};
+    color: ${theme.status.warningColor};
     &:hover, &:focus {
-      background-color: ${props.status.warningColorHover};
-      outline: 3px solid ${props.status.warningColorHover};
+      background-color: ${theme.status.warningColorHover};
+      outline: 3px solid ${theme.status.warningColorHover};
       outline-offset: 2px;
       border: 2px solid transparent;
     }
 
     &:active {
-      background-color: ${props.status.warningColorActive};
+      background-color: ${theme.status.warningColorActive};
     }
   `,
-  primaryButtonWarning: ({ props }) => `
-    background-color: ${props.status.warningColor};
-    color: ${props.textColorInverted};
+  primaryButtonWarning: ({ theme }) => `
+    background-color: ${theme.status.warningColor};
+    color: ${theme.textColorInverted};
   `,
-  secondaryButtonWarning: ({ props }) => `
-    border: 2px solid ${props.status.warningColor};
+  secondaryButtonWarning: ({ theme }) => `
+    border: 2px solid ${theme.status.warningColor};
   `,
-  error: ({ props }) => `
+  error: ({ theme }) => `
     background: none;
-    color: ${props.status.errorColor};
+    color: ${theme.status.errorColor};
     &:hover, &:focus {
-      background-color: ${props.status.errorColorHover};
-      outline: 3px solid ${props.status.errorColorHover};
+      background-color: ${theme.status.errorColorHover};
+      outline: 3px solid ${theme.status.errorColorHover};
       outline-offset: 2px;
       border: 2px solid transparent;
     }
     &:active {
-      background-color: ${props.status.errorColorActive};
+      background-color: ${theme.status.errorColorActive};
     }
   `,
-  primaryButtonError: ({ props }) => `
-    background-color: ${props.status.errorColor};
-    color: ${props.textColorInverted};
+  primaryButtonError: ({ theme }) => `
+    background-color: ${theme.status.errorColor};
+    color: ${theme.textColorInverted};
   `,
-  secondaryButtonError: ({ props }) => `
-    border: 2px solid ${props.status.warningColor};
+  secondaryButtonError: ({ theme }) => `
+    border: 2px solid ${theme.status.warningColor};
   `,
-  success: ({ props }) => `
+  success: ({ theme }) => `
     background: none;
-    color: ${props.status.successColor};
+    color: ${theme.status.successColor};
     &:hover, &:focus {
-      background-color: ${props.status.successColorHover};
-      outline: 3px solid ${props.status.successColorHover};
+      background-color: ${theme.status.successColorHover};
+      outline: 3px solid ${theme.status.successColorHover};
       outline-offset: 2px;
       border: 2px solid transparent;
     }
     &:active {
-      background-color: ${props.status.successColorActive};
+      background-color: ${theme.status.successColorActive};
     }
   `,
-  primaryButtonSuccess: ({ props }) => `
-    background-color: ${props.status.successColor};
-    color: ${props.textColorInverted};
+  primaryButtonSuccess: ({ theme }) => `
+    background-color: ${theme.status.successColor};
+    color: ${theme.textColorInverted};
   `,
-  secondaryButtonSuccess: ({ props }) => `
-    border: 2px solid ${props.status.warningColor};
+  secondaryButtonSuccess: ({ theme }) => `
+    border: 2px solid ${theme.status.warningColor};
   `
 }
 

@@ -20,6 +20,8 @@ export const defaultTheme = {
     text: '#363537',
     toggleBorder: '#FFF',
     gradient: 'linear-gradient(#39598A, #79D7ED)',
+    formElementBackground: neutral[100],
+    textOnFormElementBackground: neutral[600],
     status: {
         warningColor: yellow[100],
         warningColorHover: yellow[200],
@@ -52,6 +54,8 @@ export const darkTheme = {
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
     gradient: 'linear-gradient(#091236, #1E215D)',
+    formElementBackground: neutral[100],
+    textOnFormElementBackground: '#212121',
     status: {
         warningColor: yellow[100],
         warningColorHover: yellow[200],

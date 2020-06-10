@@ -18,9 +18,8 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         margin: 0;
         padding: 0;
         transition: all 0.25s linear;
